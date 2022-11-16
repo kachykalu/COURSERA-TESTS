@@ -6,11 +6,6 @@
     padding: 30px 15px;
 }
 
-#navbar-div{
-    height: 100px;
-    overflow-y: scroll;
-}
-
 
 .nav-link {
     border: 1px solid black;
