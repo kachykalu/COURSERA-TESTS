@@ -1,0 +1,52 @@
+#ototo {
+    background-color: darkgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    padding: 30px 15px;
+}
+
+
+
+.nav-link {
+    border: 1px solid black;
+    margin-top: 1px;
+    font-size: 1.4em;
+}
+
+@media(max-width:767px) {
+    #ototo {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+ #chicken, #beef, #sushi {
+    overflow-y: scroll;
+    height: 400px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 2px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+
+#chicken{
+    background-color: burlywood;
+}
+
+#beef{
+    background-color: crimson;
+}
+
+#sushi{
+    background-color: teal;
+}
+
+@media (max-width:767px){
+#beef, #sushi, #chicken{
+    width:70%;
+}    
+}
